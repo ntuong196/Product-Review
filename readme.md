@@ -11,7 +11,7 @@
 
 A Product Preview Site by PHP Laravel and MySQL
 
-![Screenshot](https://github.com/ntuong196/Product-Review/Screenshot/screenshot.png)
+![Screenshot](https://github.com/ntuong196/Product-Review/blob/master/Screenshot/screenshot.png)
 
 ## Server Prerequisite
 In Cloud 9 (Ubuntu machine)

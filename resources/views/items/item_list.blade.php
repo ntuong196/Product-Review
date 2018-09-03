@@ -6,8 +6,8 @@
   
 @section('content')
 <div class="header-title"><h2>Products List</h2></div>
-<table>
-    <tr>
+<table id="myTable">
+    <tr class="header">
     <th>ID</th>
     <th>Product</th>
     <th>Manufacturer</th>

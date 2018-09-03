@@ -7,8 +7,8 @@
 @section('content')
 <h2>{{ $item->summary }} Review</h2>
 
-<table>
-    <tr>
+<table id="myTable">
+    <tr class="header">
     <th>ID</th>
     <th>Product</th>
     <th>Manufacturer</th>
