@@ -14,7 +14,6 @@
     <th>ID</th>
     <th>Item</th>
     <th>Manufacturer</th>
-    <th>Review</th>
       </tr>
       
     @foreach($items as $item)
@@ -23,7 +22,6 @@
     <td>{{$item -> id }}</td>
          <td>{{$item -> summary }}</td>
          <td>{{$item -> manufacturer }}</td>
-         <td>{{ $item -> review}} </td>
          <br>
     </tr>
          

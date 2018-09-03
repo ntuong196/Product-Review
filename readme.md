@@ -11,6 +11,8 @@
 
 A Product Preview Site by PHP Laravel and MySQL
 
+![Screenshot](https://github.com/ntuong196/Product-Review/Screenshot/screenshot.png)
+
 ## Server Prerequisite
 In Cloud 9 (Ubuntu machine)
 
@@ -27,11 +29,11 @@ sudo apt-get install php7.0-sqlite
 ```
 
 ## Setup Database
-
-`cd {project folder}/database`
-`sqlite3 database.sqlite`
-`.read create_item_table.sql`
-
+```
+cd {project folder}/database
+sqlite3 database.sqlite
+.read create_item_table.sql
+```
 
 ## Deployment guide
 
