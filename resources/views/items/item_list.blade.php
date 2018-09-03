@@ -10,8 +10,7 @@
     <tr>
     <th>ID</th>
     <th>Product</th>
-    <th>Moreanufacturer</th>
-    <th>Review</th>
+    <th>Manufacturer</th>
       </tr>
       
     @foreach($items as $item)
@@ -20,8 +19,6 @@
     <td>{{$item -> id }}</td>
          <td><a href="{{url("item_detail/$item->id")}}" > {{$item -> summary }} </a></td>
          <td>{{$item -> manufacturer }}</td>
-         <td>{{ $item -> review}}</td>
-         <br>
     </tr>
          
     @endforeach

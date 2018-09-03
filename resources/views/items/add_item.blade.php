@@ -20,10 +20,7 @@
 <label>Manufacturer: </label> <br>
 <textarea name="manufacturer"></textarea>
 </p>
-<p>
-<label>Review: </label> <br>
-<input type="text" name="review">
-</p>
+
 <input type="submit" value="Add item">
 </form> 
 

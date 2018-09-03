@@ -6,30 +6,27 @@
   
 
 @section('content')
-<h2>Edit {{ $item->summary }} Information</h2>
+<h2>Edit <a href="{{ url("item_detail/$item->id") }}"> {{ $item->summary }} </a> Information</h2>
 
 <form method="post" action="/update_item_action">
 {{csrf_field()}}
 
 <p>
-<label>ID: {{$item->id }}</label> <br>
-<input type="hidden" name="id" value="{{$item->id }}">
+<label>ID: {{$item -> id}} (Can not Edit)</label> 
+<input style="visibility: hidden;" name="id" value="{{$item -> id}}" >
 </p>
 
     
 <p>
 <label>Name: {{$item->summary }} </label> <br>
+<input type="text" name="summary" placeholder="New Name">
 </p>
 
 <p>
 <label>Manufacturer: {{$item->manufacturer }}</label> <br>
+<input type="text" name="manufacturer" placeholder="New Manufacturer">
 </p>
 
-
-<p>    
-<label>Details:</label> <br>
-<textarea name="review">{{ $item->review }}</textarea>
-</p>
 
 <input type="submit" value="Update item">
 </form>
